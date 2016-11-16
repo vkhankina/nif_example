@@ -1,7 +1,7 @@
 # NIF Example
 =============
 
-NIF example illustrates how to make a tine C module example.c available from Erlang.
+NIF example illustrates how to make a tiny C module example.c available from Erlang.
 
 To run the project:
 ```
