@@ -12,7 +12,7 @@ example.o: example.c
 	gcc -c example.c
 
 example_nif.o: example.o example_nif.c
-	gcc -c example_nif.c -I/usr/local/Cellar/erlang/19.1/lib/erlang/usr/include/
+	gcc -c example_nif.c -I$(LIB_PATH)
 
 clean:
 	rm -rf *.o example_nif.so
